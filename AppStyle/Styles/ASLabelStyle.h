@@ -1,0 +1,1 @@
+//// ASLabelStyle// AppStyle////  Created by azat on 21/06/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>#import "ASTextElementStyle.h"@protocol ASLabelStyle <ASTextElementStyle>@property (nonatomic, strong) NSNumber *numberOfLines;@end

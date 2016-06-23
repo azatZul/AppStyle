@@ -1,0 +1,1 @@
+//// ASPropertyCheck// ePayments////  Created by azat on 21/06/16.//  Copyright (c) 2016. All rights reserved.//#import "ASPropertyCheck.h"BOOL as_styleHasAttribute(id style, SEL attribute){    if (![style respondsToSelector:attribute])    {        return NO;    }    id obj = [style performSelector:attribute];    return obj != nil;}

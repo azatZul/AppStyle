@@ -1,0 +1,1 @@
+//// UIButton(AppStyle)// AppStyle////  Created by azat on 20/06/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>#import <UIKit/UIKit.h>@protocol ASButtonStyle;@interface UIButton (AppStyle)- (void)as_setButtonStyle:(id<ASButtonStyle>)style;@end

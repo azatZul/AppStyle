@@ -1,0 +1,1 @@
+//// UIView(AppStyle)// ePayments////  Created by azat on 21/06/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>#import <UIKit/UIKit.h>@protocol ASViewStyle;@interface UIView (AppStyle)- (void)as_setViewStyle:(id<ASViewStyle>)style;@end

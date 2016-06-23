@@ -1,0 +1,1 @@
+//// UILabel(AppStyle)// AppStyle////  Created by azat on 03/06/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>#import <UIKit/UIKit.h>@protocol ASLabelStyle;@interface UILabel (AppStyle)- (void)as_setLabelStyle:(id<ASLabelStyle>)style;@end

@@ -1,0 +1,1 @@
+//// ASPageControlStyle// AppStyle////  Created by azat on 21/06/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>#import "ASViewStyle.h"@protocol ASPageControlStyle <ASViewStyle>@property (nonatomic, strong) UIColor *currentPageColor;@end

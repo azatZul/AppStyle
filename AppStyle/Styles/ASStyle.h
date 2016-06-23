@@ -1,0 +1,1 @@
+//// ASStyle// ePayments////  Created by azat on 21/06/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>@protocol ASStyle <NSObject>+ (instancetype)style;@end

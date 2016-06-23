@@ -1,0 +1,1 @@
+//// UIPageControl(AppStyle)// AppStyle////  Created by azat on 21/06/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>#import <UIKit/UIKit.h>@protocol ASPageControlStyle;@interface UIPageControl (AppStyle)- (void)as_setPageControlStyle:(id <ASPageControlStyle>)style;@end

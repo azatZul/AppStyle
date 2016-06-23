@@ -1,0 +1,1 @@
+//// UITextField(AppStyle)// ePayments////  Created by azat on 23/06/16.//  Copyright (c) 2016. All rights reserved.//#import <Foundation/Foundation.h>#import <UIKit/UIKit.h>@protocol ASTextElementStyle;@interface UITextField (AppStyle)- (void)as_setTextFieldStyle:(id<ASTextElementStyle>)style;@end
